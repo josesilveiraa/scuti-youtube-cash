@@ -1,0 +1,38 @@
+# Plugin criado por ViniPlugner
+
+# Permissão para utilizar o comando /yt video <link>
+# -> stonerequestcash.use
+#
+# Permissão para utlizar o comando /yt cadastrar <nome do canal>
+# -> stonerequestcash.admin
+
+# Insira abaixo as informações do MySQL
+MySQL:
+  Host: 'localhost'
+  Porta: 3306
+  Usuario: 'root'
+  Senha: ''
+  Database: 'db'
+
+# Insira informações sobre o recebimento de cash
+RequestCash:
+  Execute_Command: 'cash add <player> <value>'
+  Nome_Do_Servidor: 'Factions Legend' # Esse nome deve estar no titulo do video
+  MinLikes: 10
+  MaxCash: 2000 # Se o número de likes passar de 2000 só será entregue 2000 de cash.
+
+# Caso o jogador tenha a permissão scutirequestcash.multiplicar os fatores abaixo seram aplicados
+Multiplicar:
+  Ativo: false
+  Vezes: 2
+
+# Insira as mensagens abaixo
+Mensagens:
+  Sem_Permissao: '&cVocê não possui permissão para executar este comando.'
+  Canal_Nao_Cadastrado: '&cOps, seu canal não está registrado em nosso sistema.'
+  Video_Nao_Corresponde_Com_NomeCanal: '&cO autor do video informado não é o mesmo cadastrado em seu nick.'
+  Like_Menor_Deslike: '&cSeu vídeo possui uma má avaliação de desempenho, por isso não é possível reinvidicar seu cash :C'
+  Video_Falta_Nome_Do_Servidor: '&cSeu vídeo não possui o nome do servidor, insira <nome> no titulo para receber seu cash.'
+  Video_Ja_Solicitado: '&cO cash desse video já foi entregue!'
+  Video_Invalido: '&cO link do vídeo informado é inválido :S'
+  Cash_Entregue: '&a+<value> cash adicionados em sua conta!'

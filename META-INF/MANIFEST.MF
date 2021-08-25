@@ -1,0 +1,5 @@
+Manifest-Version: 1.0
+Protected-Notice: AV contact email - primary@licelus.com
+JAR-Signature: uRM3dAzcb2oBGkDUn7+lyvFfK9AHtCGlx97e75NVeY0b1dh/
+Protected-By: 3.0.3 Stringer (20170228)
+
